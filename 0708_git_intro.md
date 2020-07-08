@@ -20,11 +20,12 @@
 
 ## local git
 
-1. 초기화 `$ git int`
+1. git 다운로드 및 설치 
+2. 초기화 `$ git int`
    1. 실제로는 `.git/` 폴더가 생성됨
    2. 버전관리가 시작 됨
    3. repo(repository)라고 부름
-2. 서명 설정
+3. 서명 설정
    1. `$ git config --global user.name 'name'`
    2. `$ git config --global user.email 'email@mail'`
 
@@ -46,7 +47,12 @@
 
 9. git reset : 수정하기 전으로 되돌아가기
 
+### 집 컴퓨터 세팅
 
+1. git 다운 및 설치
+2. `$ git config --global ....` 
+3. `$ git clone <URL>` : `$ git removt -v`로 경로 알 수 있음, github에서 Clone with https
+4. 
 
 
 
