@@ -24,11 +24,21 @@
    1. `$ git config --global user.name 'name'`
    2. `$ git config --global user.email 'email@mail'`
 
-3. 리포의 상태 보기 `$ git status`
+3. 리포의 상태 보기(stage의 상태) `$ git status`
+
 4. stage에 올리기 `$ git add`
+
+   - 특정파일만 올리기 `$ git add 파일명1 파일명2` 
+
+   - 내 위치 폴더 내 수정된 것 다올리기 `$ git add .`
+
 5. snapshot 찍기 `$ git commit`
+
 6. 로그 보기 `$ git log`
+
 7. 상태 보기 `$ git status`
+
+8. git diff : 변경된부분 나타냄
 
 
 
@@ -38,7 +48,7 @@ working directory
 
 처음 확인한 파일들 -> untracked 상태
 
-add 하면 stage로 올린다
+add 하면 stage로 올린다(tracking 시작)
 
 commit 하면 stage전체를 history로 기록, stage에서 사라짐
 
