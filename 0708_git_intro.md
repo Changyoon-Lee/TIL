@@ -44,7 +44,7 @@
 
 8. git diff : 변경된부분 나타냄
 
-9. git reset
+9. git reset : 수정하기 전으로 되돌아가기
 
 
 
@@ -85,3 +85,15 @@ commit 하면 history로 기록(바뀐부분 기록)
 6. 이후 remote repo 변경사항을 local repo에서 반영하기
 
    `$ git pull`
+
+
+
+## TIL 관리 시나리오
+
+1. 멀캠에 온다.
+2. `$ git pull`
+3. 열공
+4. `$ git add` & `$git commit` 으로  중간중간 저장
+5. 퇴근 전 `$ git push`
+6. 집에서 켜서 동기화를 위해 ` $ git pull`
+7. 수정 후 `$ git add와 commit`, `$ git push`
