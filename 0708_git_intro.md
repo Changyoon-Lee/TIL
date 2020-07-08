@@ -16,6 +16,10 @@
 
    `$ pwd` 현재경로 표시
 
+
+
+## local git
+
 1. 초기화 `$ git int`
    1. 실제로는 `.git/` 폴더가 생성됨
    2. 버전관리가 시작 됨
@@ -40,6 +44,8 @@
 
 8. git diff : 변경된부분 나타냄
 
+9. git reset
+
 
 
 
@@ -57,3 +63,19 @@ commit 하면 stage전체를 history로 기록, stage에서 사라짐
 add 하면 stage로 올린다(바뀐 부분만 올라감)
 
 commit 하면 history로 기록(바뀐부분 기록)
+
+삭제할떄도 add commit작업 수행해야 한다.
+
+## github
+
+1. 원격 저장소(remote repository) 생성
+
+2. local repo => remote repo  연결 `$ git remote add origin <URL>`
+
+3. local commit 들을 remote로 보내기 `$ git push origin master`
+
+4. `$ git push` == `$ git push origin master`로 단축 명령하기
+
+   `$ git push -u origin master`
+
+   
