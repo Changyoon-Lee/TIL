@@ -78,4 +78,10 @@ commit 하면 history로 기록(바뀐부분 기록)
 
    `$ git push -u origin master`
 
-   
+5. 다른 컴퓨터에서 remote repo 받아오기(**최초 1회**)
+
+   `$ git clone <URL>`
+
+6. 이후 remote repo 변경사항을 local repo에서 반영하기
+
+   `$ git pull`
