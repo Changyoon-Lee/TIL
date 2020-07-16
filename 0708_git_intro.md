@@ -103,3 +103,44 @@ commit 하면 history로 기록(바뀐부분 기록)
 5. 퇴근 전 `$ git push`
 6. 집에서 켜서 동기화를 위해 ` $ git pull`
 7. 수정 후 `$ git add와 commit`, `$ git push`
+
+### 
+
+## branch, pull request
+
+
+
+`$ git checkout -b changyoon/add_cookie_in_head` branch 생성
+
+확인 `$ git branch`
+
+`$ git add 해당파일`
+
+`$ git commit -m '~~'`
+
+`$ git push`하면 git push~~ 라고 뭐라 뜨는데 복사 해서 씀
+
+github에 master ~~ 에 보면 모든 branch 뜸
+
+pull request 누르면 메시지 남길수 있음 밑으로 내리면 file change 내역 확인가능
+
+create pull request 누름
+
+pull request 탭에 들어가면 mater가 코드 점검(file changed 탭에서 확인) 한다. +눌러서 잘못된게 있으면 요청사항 남길 수 있음
+
+local에 가져와서 변경사항 코드 돌려볼수 있는데
+
+git fetch
+
+git checkout  -b 해당 사람/add_cookie_in_head
+
+
+
+확인이 다끝나면
+
+Merge pull requeset -> confrim merge
+
+master탭 가보면 수정사항 적용되어있음(같은 코드 여러사람이 작업하면 complete해결해줘야됨??)
+
+commit 들어가서 reset 가능??
+
