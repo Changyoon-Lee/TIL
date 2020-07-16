@@ -21,31 +21,48 @@
 ## local git
 
 1. git 다운로드 및 설치 
+
 2. 초기화 `$ git int`
    1. 실제로는 `.git/` 폴더가 생성됨
    2. 버전관리가 시작 됨
    3. repo(repository)라고 부름
+   
 3. 서명 설정
    1. `$ git config --global user.name 'name'`
    2. `$ git config --global user.email 'email@mail'`
 
-3. 리포의 상태 보기(stage의 상태) `$ git status`
+4. 리포의 상태 보기(stage의 상태) `$ git status`
 
-4. stage에 올리기 `$ git add`
+5. stage에 올리기 `$ git add`
+   stage add 취소하기 filename 안쓰면 전체 취소 `$git reset HEAD filename`
 
    - 특정파일만 올리기 `$ git add 파일명1 파일명2` ㅊㅇ 
 
    - 내 위치 폴더 내 수정된 것 다올리기 `$ git add .`
 
-5. snapshot 찍기 `$ git commit`
+6. snapshot 찍기 `$ git commit`
+   commit 취소하기 
 
-6. 로그 보기 `$ git log`
+   ```
+   [방법 1] commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉터리에 보존
+   $ git reset --soft HEAD^
+   [방법 2] commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에 보존
+   $ git reset --mixed HEAD^ // 기본 옵션
+   $ git reset HEAD^ // 위와 동일
+   $ git reset HEAD~2 // 마지막 2개의 commit을 취소
+   [방법 3] commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에서 삭제
+   $ git reset --hard HEAD^
+   ```
 
-7. 상태 보기 `$ git status`
+    ```
 
-8. git diff : 변경된부분 나타냄
+7. 로그 보기 `$ git log`
 
-9. git reset : 수정하기 전으로 되돌아가기
+8. 상태 보기 `$ git status`
+
+9. git diff : 변경된부분 나타냄
+
+10. git reset : 수정하기 전으로 되돌아가기
 
 ### 집 컴퓨터 세팅
 
@@ -124,7 +141,7 @@ github에 master ~~ 에 보면 모든 branch 뜸
 
 pull request 누르면 메시지 남길수 있음 밑으로 내리면 file change 내역 확인가능
 
-create pull request 누름
+create pull request
 
 pull request 탭에 들어가면 mater가 코드 점검(file changed 탭에서 확인) 한다. +눌러서 잘못된게 있으면 요청사항 남길 수 있음
 
