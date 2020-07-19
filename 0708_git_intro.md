@@ -56,6 +56,8 @@
 
     ```
 
+    ```
+   
 7. 로그 보기 `$ git log`
 
 8. 상태 보기 `$ git status`
@@ -68,8 +70,9 @@
 
 1. git 다운 및 설치
 2. `$ git config --global ....` 
-3. `$ git clone <URL>` : `$ git removt -v`로 경로 알 수 있음, github에서 Clone with https
-4. 
+3. 원하는 위치에서 `$ git init`
+4. `$ git clone <URL>` : 
+5. `$ git remote -v`로 경로 알 수 있음, github에서 Clone with https
 
 
 
@@ -128,6 +131,8 @@ commit 하면 history로 기록(바뀐부분 기록)
 
 
 `$ git checkout -b changyoon/add_cookie_in_head` branch 생성
+
+	- branch 상태와 master 상태일때 각각의 상태에 맞게 폴더내용이 보인다
 
 확인 `$ git branch`
 
