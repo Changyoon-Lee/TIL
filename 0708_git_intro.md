@@ -150,11 +150,13 @@ create pull request
 
 pull request 탭에 들어가면 mater가 코드 점검(file changed 탭에서 확인) 한다. +눌러서 잘못된게 있으면 요청사항 남길 수 있음
 
+
+
 local에 가져와서 변경사항 코드 돌려볼수 있는데 잘안함
 
-git fetch
+​	- git fetch
 
-git checkout  -b 해당 사람/add_cookie_in_head
+​	- git checkout  -b 해당 사람/add_cookie_in_head
 
 
 
@@ -164,5 +166,9 @@ conversation 탭에 Merge pull requeset -> confrim merge
 
 master탭 가보면 수정사항 적용되어있음(같은 코드 여러사람이 작업하면 complete해결해줘야됨??)
 
-commit 들어가서 reset 가능??
+
+
+git reset 으로 이전 commit  지점으로 돌아갈수 있음
+
+(soft, hard 등 옵션 설정 가능)
 
