@@ -31,6 +31,8 @@
    1. `$ git config --global user.name 'name'`
    2. `$ git config --global user.email 'email@mail'`
 
+   # github계정에 등록되어 있는 email을 사용해야됨
+   
 4. 리포의 상태 보기(stage의 상태) `$ git status`
 
 5. stage에 올리기 `$ git add`
