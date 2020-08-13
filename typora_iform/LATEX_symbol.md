@@ -26,6 +26,7 @@
 | $\equiv$ | \equiv |
 | $\bmod$  | \bmod  |
 | $\times$ | \times |
+| $\cdot$  | \cdot  |
 
 ### Power and Indices
 

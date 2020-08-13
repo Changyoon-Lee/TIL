@@ -1,8 +1,20 @@
+
+
 # Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
+<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+
+<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+
 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="enter image description here" style="zoom: 80%;" />
+
+
+
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 
 ![Dooray!](/toast_dooray.png)
 
