@@ -17,9 +17,9 @@ with open('README.md','wt') as f:
     
     for idx, i in enumerate(tag):
         if idx%5==0:
-            f.write('   ')
+            f.write('\n\n')
         try:
-            f.write('[{}]({})\t\t'.format(i['title'], github_url+i['href']))
+            f.write('[{}]({})    '.format(i['title'], github_url+i['href']))
         except:
             pass
 
