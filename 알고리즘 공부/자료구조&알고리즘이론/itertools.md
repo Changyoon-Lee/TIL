@@ -1,3 +1,93 @@
+# 개념
+
+## iterables 
+
+- things that we can loop over
+
+- tuples, dictionaries, strings, files generators
+
+
+
+how can we tell if something can be looped over or not
+
+how can we tell if something is itarable
+
+- have a special method called double underscore itter (dunder methods)
+
+
+
+```python
+num = [1,2,3]
+print(dir(nums))
+# __iter__ 존재여부로 확인 가능
+```
+
+![image-20201110121347435](itertools.assets/image-20201110121347435.png)
+
+
+
+## iterator is an object with a state
+
+```python
+i_nums = nums.__iter__() #==iter(nums)
+print(dir(i_nums))
+# __next__ 존재여부
+```
+
+![image-20201110121316567](itertools.assets/image-20201110121316567.png)
+
+
+
+- 동작방식
+
+```python
+while True:
+    try:
+        item = next(i_nums)
+        print(item)
+    except StopIteration:
+        break
+```
+
+```python
+class MyRange:
+    def __init__(self, start, end):
+        self.value = start
+        self.end = end 
+        
+    def __iter__(self): # has to return iterator
+        return self
+    
+   	def __next__(self):
+        if self.value >= self.end:
+            raise StopIteration:
+        current = self.value
+        self.value += 1
+        return current
+    
+    
+```
+
+
+
+
+
+## generator
+
+iterator를 쉽게 이용 할 수 있게 해줌
+
+```python
+def my_range(start, end):
+    current = start
+    while current < end:
+        yield current
+        current +=1
+```
+
+
+
+
+
 # itertools
 
 
