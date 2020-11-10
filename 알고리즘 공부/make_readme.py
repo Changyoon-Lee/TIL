@@ -17,7 +17,7 @@ with open('README.md','wt') as f:
     
     for idx, i in enumerate(tag):
         if idx%5==0:
-            f.write('\b\b\b')
+            f.write('   ')
         try:
             f.write('[{}]({})\t\t'.format(i['title'], i['href']))
         except:
