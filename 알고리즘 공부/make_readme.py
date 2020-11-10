@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 
 url = 'https://github.com/Changyoon-Lee/TIL/tree/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers'
-github_url = 'https://github.com/'
+github_url = 'https://github.com'
 
 resp = requests.get(url)
 soup = BeautifulSoup(resp.content, 'lxml')
