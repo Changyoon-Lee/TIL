@@ -13,11 +13,11 @@ title = []
 link = []
 
 with open('README.md','wt') as f:
-    f.write('# 프로그래머스 알고리즘 문제 풀이\b\b')
+    f.write('# 프로그래머스 알고리즘 문제 풀이\n\n')
     
     for idx, i in enumerate(tag):
         if idx%5==0:
-            f.write('\b/b')
+            f.write('\b\b\b')
         try:
             f.write('[{}]({})\t\t'.format(i['title'], i['href']))
         except:
