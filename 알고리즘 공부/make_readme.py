@@ -15,14 +15,16 @@ link = []
 with open('README.md','wt') as f:
     f.write('# 프로그래머스 알고리즘 문제 풀이\n')
     
-    for idx, i in enumerate(tag):     
+    for idx, i in enumerate(tag):  
+        if idx!=0 and idx%5==0:
+            f.write('<br>')   
+
         try:
             f.write('[{}]({}) &nbsp;&nbsp;&nbsp;&nbsp;'.format(i['title'], github_url+i['href']))
         except:
             pass
-        
-        if idx%5==0:
-            f.write('<br>')
+
+
 
 os.system('git add .')
 os.system('git commit -m "readme_update"')
