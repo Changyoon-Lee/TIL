@@ -1,0 +1,6 @@
+# 프로그래머스 알고리즘 문제 풀이
+
+
+
+[study about iter](/Changyoon-Lee/TIL/commit/92f73c8d3223ba60c802c91ebb0cb9df5298aae6)	[K번째수.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/K%EB%B2%88%EC%A7%B8%EC%88%98.py)	[itertools_info.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/itertools_info.py)	[test.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/test.py)	[더 맵게.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/%EB%8D%94%20%EB%A7%B5%EA%B2%8C.py)	
+[등굣길.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/%EB%93%B1%EA%B5%A3%EA%B8%B8.py)	[모의고사.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.py)	[체육복.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/%EC%B2%B4%EC%9C%A1%EB%B3%B5.py)	[타겟 넘버.py](/Changyoon-Lee/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/programmers/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84.py)	
