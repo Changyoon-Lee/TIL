@@ -25,6 +25,6 @@ with open('testREADME.md','wt') as f:
 
 os.system('git add .')
 os.system('git commit -m "readme_update"')
-os,system('git push')
+os.system('git push')
 # os.chdir(os.path.dirname(os.path.realpath(__file__)))
 print(os.getcwd())
