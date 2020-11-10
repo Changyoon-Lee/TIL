@@ -19,7 +19,7 @@ with open('README.md','wt') as f:
         if idx%5==0:
             f.write('   ')
         try:
-            f.write('[{}]({})\t\t'.format(i['title'], i['href']))
+            f.write('[{}]({})\t\t'.format(i['title'], github_url+i['href']))
         except:
             pass
 
