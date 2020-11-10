@@ -20,7 +20,7 @@ with open('README.md','wt') as f:
             f.write('[{}]({}) &nbsp;&nbsp;&nbsp;&nbsp;'.format(i['title'], github_url+i['href']))
         except:
             pass
-        if idx%5==0:
+            if idx%5==0:
                 f.write('<br>')
 
 os.system('git add .')
