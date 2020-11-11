@@ -5,7 +5,7 @@ n_song, n_dvd = map(int, input().split())
 song_list = list(map(int, input().split()))
 
 upper = max(song_list)*(n_song//n_dvd+1)
-search = upper//2
+search = upper//2 
 lower = max(song_list)
 
 while True:
