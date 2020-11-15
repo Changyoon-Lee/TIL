@@ -12,4 +12,5 @@ def solution(numbers, target):
     DFS(0,0)
     return cnt
 
+# nonlocal 하면 global 안쓰고 간단해 질 
 print(solution([1, 1, 1, 1, 1],3))
