@@ -134,8 +134,19 @@ $$
 
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-
 ## UML diagrams
+
+##### mermaid용법
+
+> https://mermaid-js.github.io/mermaid/#/ 
+
+##### github에 mermaid 용법 보이게 하기(크롬 확장기능 추가)
+
+> https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en
+
+
+
+##### example
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
