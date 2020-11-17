@@ -6,3 +6,10 @@
 
 - 등등
 
+
+Mermaid lets you represent diagrams using text and code
+참고 사이트 : https://mermaid-js.github.io/mermaid/#/
+
+Mermaid language support to GitHub.
+크롬 확장기능 추가
+https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en
