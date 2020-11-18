@@ -101,19 +101,12 @@ $$
 - s의 값은 월별 계절성을 나타낼 때는 s=12가 되고 분기별 계절성을 나타낼 때는 s=4가 된다.
 
 ---
-$LATEX$
 
-$$
-\begin{align*}\newline
-X_1,X_2,\cdots,X_t &: \textrm{a sequence of random variable}(X:\text{Random Variables})\newline\newline
+$\begin{align*}\newline X_1,X_2,\cdots,X_t &: \textrm{a sequence of random variable}(X:\text{Random Variables})\newline\newline F_X(x) &= P(X\le  ):\text{CDF(Cumulative distribution Fuction)}\newline E(X)&=\mu_x\newline V(X)&=E[(X-\mu_x)^2]=\sigma_x^2\newline \end{align*}$
 
-F_X(x) &= P(X\le x):\text{CDF(Cumulative distribution Fuction)}\newline
+---
 
-E(X)&=\mu_x\newline
 
-V(X)&=E[(X-\mu_x)^2]=\sigma_x^2\newline
-\end{align*}
-$$
 
 
 
