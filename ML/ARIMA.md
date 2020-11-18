@@ -104,27 +104,27 @@ $$
 
 
 $$
-\begin{align*}\\
-X_1,X_2,\cdots,X_t \:&:\: \textrm{a sequence of random variable}(X:\text{Random Variables})\\\\
+\begin{align*}\newline
+X_1,X_2,\cdots,X_t \:&:\: \textrm{a sequence of random variable}(X:\text{Random Variables})\newline\newline
 
-F_X(x) &= P(X\le x)\::\:\text{CDF(Cumulative distribution Fuction)}\\
+F_X(x) &= P(X\le x)\::\:\text{CDF(Cumulative distribution Fuction)}\newline
 
-E(X)&=\mu_x\\
+E(X)&=\mu_x\newline
 
-V(X)&=E[(X-\mu_x)^2]=\sigma_x^2\\\\
+V(X)&=E[(X-\mu_x)^2]=\sigma_x^2\newline
 \end{align*}
 $$
 
 
 
 $$
-\begin{align*}\\
-Cov(X_1, X_2)&=E[(X_1-\mu_1)(X_2-\mu_2)]\\
-&=\large\sigma_{\small{X_1X_2}}\newline∴ Cov(X_1,X_2)&=V(X_1)={\large\sigma_{\small{X_1}}}^2\\\\
+\begin{align*}\newline
+Cov(X_1, X_2)&=E[(X_1-\mu_1)(X_2-\mu_2)]\newline
+&=\large\sigma_{\small{X_1X_2}}\newline∴ Cov(X_1,X_2)&=V(X_1)={\large\sigma_{\small{X_1}}}^2\newline\newline
 Corr(X_1,X_2)&=\frac{Cov(X_1,X_2)}{\sqrt{V(X_1)\cdot V(X_2)}}
 =\frac{\large\sigma_{\small{X_1X_2}}}{\sqrt{{\large\sigma_{\small{X_1}}}^2\cdot{\large\sigma_{\small{X_2}}}^2}}
 =\frac{\large\sigma_{\small{X_1X_2}}}{\large\sigma_{\small{X_1}}\cdot\large\sigma_{\small{X_2}}}
-\\\end{align*}
+\end{align*}
 $$
 
 $$
