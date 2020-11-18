@@ -134,15 +134,15 @@ $$
 $$
 
 $$
-\begin{align*}X, Y &:\text{independent}\\\\
-E(X \cdot Y)&=E(X) \cdot E(Y) \\\nonumber\\
-\operatorname{Cov}(X, Y)&=0 \\\nonumber\\
-\operatorname{Cov}(X+2,Y)&=\operatorname{Cov}(X, Y)+\operatorname{Cov}(2,Y)\\
-&=\operatorname{Cov}(X, Y)+E(2 Y)-E(2) \cdot E(Y)\\
-&=\operatorname{Cov}(X, Y)+2E(Y)-2E(Y)\\
-&=\operatorname{Cov}(X, Y)\\\nonumber
-\\
-\operatorname{Cov}(X, Y)&=\operatorname{Cov}(Y, X)\\\\
+\begin{align*}X, Y &:\text{independent}\newline\newline
+E(X \cdot Y)&=E(X) \cdot E(Y) \newline\nonumber\newline
+\operatorname{Cov}(X, Y)&=0 \newline\nonumber\newline
+\operatorname{Cov}(X+2,Y)&=\operatorname{Cov}(X, Y)+\operatorname{Cov}(2,Y)\newline
+&=\operatorname{Cov}(X, Y)+E(2 Y)-E(2) \cdot E(Y)\newline
+&=\operatorname{Cov}(X, Y)+2E(Y)-2E(Y)\newline
+&=\operatorname{Cov}(X, Y)\newline\nonumber
+\newline
+\operatorname{Cov}(X, Y)&=\operatorname{Cov}(Y, X)\newline\newline
 \operatorname{Cov}(aX, Y)&=a\operatorname{Cov}(X, Y)
 \end{align*}
 $$
@@ -153,7 +153,7 @@ $$
 
 $\begin{aligned}\text { (a) }\quad \gamma_{X}(0) =\operatorname{Cov}\left(X_{t}, X_{t}\right)=V\left(X_{t}\right)=\sigma_{X t}^{2} \end{aligned}$
 
-$\begin{aligned}\text { (b) }\quad \gamma_{X}(-h) &=\operatorname{Cov}\left(X_{t}, X_{t-h}\right) \\ &=\operatorname{Cov}\left(X_{t-h}, X_{t}\right) \\ &=\operatorname{Cov}\left(X_{t-h}, X_{(t-h)+h)}\right.\\ &=\gamma_{X}(h) \\ ∴\gamma_{X}(h)&=\gamma_{X}(-h) \text { for all } h\\
+$\begin{aligned}\text { (b) }\quad \gamma_{X}(-h) &=\operatorname{Cov}\left(X_{t}, X_{t-h}\right) \newline&=\operatorname{Cov}\left(X_{t-h}, X_{t}\right) \newline &=\operatorname{Cov}\left(X_{t-h}, X_{(t-h)+h)}\right.\newline &=\gamma_{X}(h) \newline ∴\gamma_{X}(h)&=\gamma_{X}(-h) \text { for all } h\newline
 &\to \textbf{Symmetry} \end{aligned}$
 
 
