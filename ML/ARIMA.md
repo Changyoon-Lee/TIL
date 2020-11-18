@@ -1,6 +1,6 @@
 # ARIMA model
 
-![](https://img.shields.io/badge/Required_Chrome_extensions_to_see_ correctly-white)[![](https://img.shields.io/static/v1?label=Download&message=mermaid&color=blueviolet)](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en)[![](https://img.shields.io/static/v1?label=Download&message=MathJax_Plugin&color=blue)](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn/related?hl=en)
+![](https://img.shields.io/badge/Required_Chrome_extensions_to_see_correctly-white)[![](https://img.shields.io/static/v1?label=Download&message=mermaid&color=blueviolet)](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en)[![](https://img.shields.io/static/v1?label=Download&message=MathJax_Plugin&color=blue)](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn/related?hl=en)
 
 ##### 참고자료 : 김성범교수 Youtube
 
@@ -104,8 +104,6 @@ $$
 
 
 $$
-\fcolorbox{NavyBlue}{white}{
-$
 \begin{align*}\\
 X_1,X_2,\cdots,X_t \:&:\: \textrm{a sequence of random variable}(X:\text{Random Variables})\\\\
 
@@ -115,25 +113,18 @@ E(X)&=\mu_x\\
 
 V(X)&=E[(X-\mu_x)^2]=\sigma_x^2\\\\
 \end{align*}
-$
-}
 $$
 
 
 
 $$
-\fcolorbox{NavyBlue}{white}{
-$
-
 \begin{align*}\\
 Cov(X_1, X_2)&=E[(X_1-\mu_1)(X_2-\mu_2)]\\
-&=\large\sigma_{\small{X_1X_2}}\\\therefore Cov(X_1,X_2)&=V(X_1)={\large\sigma_{\small{X_1}}}^2\\\\
+&=\large\sigma_{\small{X_1X_2}}\\∴ Cov(X_1,X_2)&=V(X_1)={\large\sigma_{\small{X_1}}}^2\\\\
 Corr(X_1,X_2)&=\frac{Cov(X_1,X_2)}{\sqrt{V(X_1)\cdot V(X_2)}}
 =\frac{\large\sigma_{\small{X_1X_2}}}{\sqrt{{\large\sigma_{\small{X_1}}}^2\cdot{\large\sigma_{\small{X_2}}}^2}}
 =\frac{\large\sigma_{\small{X_1X_2}}}{\large\sigma_{\small{X_1}}\cdot\large\sigma_{\small{X_2}}}
-\\\\\end{align*}
-
-$}
+\\\end{align*}
 $$
 
 $$
@@ -143,21 +134,17 @@ $$
 $$
 
 $$
-\fcolorbox{NavyBlue}{white}{
-
-$
-\begin{align}X, Y &:\text{independent}\\\nonumber\\
+\begin{align*}X, Y &:\text{independent}\\\\
 E(X \cdot Y)&=E(X) \cdot E(Y) \\\nonumber\\
 \operatorname{Cov}(X, Y)&=0 \\\nonumber\\
-\operatorname{Cov}(X+2,Y)&=\operatorname{Cov}(X, Y)+\operatorname{Cov}(2,Y)\\\nonumber
-&=\operatorname{Cov}(X, Y)+E(2 Y)-E(2) \cdot E(Y)\\\nonumber
-&=\operatorname{Cov}(X, Y)+2E(Y)-2E(Y)\\\nonumber
+\operatorname{Cov}(X+2,Y)&=\operatorname{Cov}(X, Y)+\operatorname{Cov}(2,Y)\\
+&=\operatorname{Cov}(X, Y)+E(2 Y)-E(2) \cdot E(Y)\\
+&=\operatorname{Cov}(X, Y)+2E(Y)-2E(Y)\\
 &=\operatorname{Cov}(X, Y)\\\nonumber
 \\
-\operatorname{Cov}(X, Y)&=\operatorname{Cov}(Y, X)\\\nonumber\\\nonumber
+\operatorname{Cov}(X, Y)&=\operatorname{Cov}(Y, X)\\\\
 \operatorname{Cov}(aX, Y)&=a\operatorname{Cov}(X, Y)
-\end{align}
-$}\nonumber
+\end{align*}
 $$
 
 
@@ -166,7 +153,7 @@ $$
 
 $\begin{aligned}\text { (a) }\quad \gamma_{X}(0) =\operatorname{Cov}\left(X_{t}, X_{t}\right)=V\left(X_{t}\right)=\sigma_{X t}^{2} \\\end{aligned}$
 
-$\begin{aligned}\text { (b) }\quad \gamma_{X}(-h) &=\operatorname{Cov}\left(X_{t}, X_{t-h}\right) \\ &=\operatorname{Cov}\left(X_{t-h}, X_{t}\right) \\ &=\operatorname{Cov}\left(X_{t-h}, X_{(t-h)+h)}\right.\\ &=\gamma_{X}(h) \\ \therefore\gamma_{X}(h)&=\gamma_{X}(-h) \text { for all } h\\
+$\begin{aligned}\text { (b) }\quad \gamma_{X}(-h) &=\operatorname{Cov}\left(X_{t}, X_{t-h}\right) \\ &=\operatorname{Cov}\left(X_{t-h}, X_{t}\right) \\ &=\operatorname{Cov}\left(X_{t-h}, X_{(t-h)+h)}\right.\\ &=\gamma_{X}(h) \\ ∴\gamma_{X}(h)&=\gamma_{X}(-h) \text { for all } h\\
 &\to \textbf{Symmetry} \end{aligned}$
 
 
