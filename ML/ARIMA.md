@@ -1,6 +1,6 @@
 # ARIMA model
 
-![](https://img.shields.io/badge/Required_Chrome_extensions_to_see_ correctly-white)[![](https://img.shields.io/static/v1?label=Download&message=mermaid&color=blueviolet)](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en)[![](https://img.shields.io/static/v1?label=Download&message=MathJax_Plugin&color=blue)](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn/related?hl=en)
+![](https://img.shields.io/badge/Required_Chrome_extensions_to_see_correctly-white)[![](https://img.shields.io/static/v1?label=Download&message=mermaid&color=blueviolet)](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en)[![](https://img.shields.io/static/v1?label=Download&message=MathJax_Plugin&color=blue)](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn/related?hl=en)
 
 ##### 참고자료 : 김성범교수 Youtube
 
