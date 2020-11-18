@@ -105,9 +105,9 @@ $$
 
 $$
 \begin{align*}\newline
-X_1,X_2,\cdots,X_t \:&:\: \textrm{a sequence of random variable}(X:\text{Random Variables})\newline\newline
+X_1,X_2,\cdots,X_t &: \textrm{a sequence of random variable}(X:\text{Random Variables})\newline\newline
 
-F_X(x) &= P(X\le x)\::\:\text{CDF(Cumulative distribution Fuction)}\newline
+F_X(x) &= P(X\le x):\text{CDF(Cumulative distribution Fuction)}\newline
 
 E(X)&=\mu_x\newline
 
@@ -127,11 +127,8 @@ Corr(X_1,X_2)&=\frac{Cov(X_1,X_2)}{\sqrt{V(X_1)\cdot V(X_2)}}
 \end{align*}
 $$
 
-$$
-\begin{align*}
+---
 
-\end{align*}
-$$
 
 $$
 \begin{align*}X, Y &:\text{independent}\newline\newline
