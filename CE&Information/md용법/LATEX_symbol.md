@@ -28,45 +28,52 @@
 
 ### Operators
 
-| Symbol   | Script                |
-| -------- | --------------------- |
-| $\cos$   | \cos                  |
-| $\sin$   | \sin                  |
-| $\lim$   | \lim                  |
-| $\exp$   | \exp                  |
-| $\to$    | \to                   |
-| $\infty$ | \infty                |
-| $\equiv$ | \equiv                |
-| $\bmod$  | \bmod                 |
-| $\times$ | \times                |
-| $\cdot$  | \cdot                 |
-| \| ∥     | \| \|                 |
-| { }      | \{ \}                 |
-| / ∖      | / \backslash          |
-| ⟨ ⟩      | \langle \rangle       |
-| ↑ ⇑      | \uparrow \Uparrow     |
-| ↓ ⇓      | \downarrow \Downarrow |
-| ⌈ ⌉      | \lceil \rceil         |
-| ⌊ ⌋      | \lfloor \rfloor       |
-|          |                       |
+| Symbol    | Script                |
+| --------- | --------------------- |
+| $\cos$    | \cos                  |
+| $\sin$    | \sin                  |
+| $\lim$    | \lim                  |
+| $\exp$    | \exp                  |
+| $\to$     | \to                   |
+| $\infty$  | \infty                |
+| $\equiv$  | \equiv                |
+| $\bmod$   | \bmod                 |
+| $\times$  | \times                |
+| $\cdot$   | \cdot                 |
+| \| ∥      | \| \|                 |
+| { }       | \{ \}                 |
+| / ∖       | / \backslash          |
+| $$        | \langle \rangle       |
+| ↑ ⇑       | \uparrow \Uparrow     |
+| ↓ ⇓       | \downarrow \Downarrow |
+| ⌈ ⌉       | \lceil \rceil         |
+| ⌊ ⌋       | \lfloor \rfloor       |
+| $\subset$ |                       |
 
 ### Set and logic notation
 
-| Symbol | Script                                 |
-| ------ | -------------------------------------- |
-| ∃ ∄    | \exists \nexists                       |
-| ∀      | \forall                                |
-| ¬      | \neg                                   |
-| ⊂ ⊃    | \subset \supset                        |
-| ∈ ∉ ∋  | \in \notin \ni                         |
-| ∧ ∨    | \land \lor                             |
-| → ←    | \rightarrow or \to \leftarrow or \gets |
-| ↦      | \mapsto                                |
-| ⟹ ⇒    | \implies \Rightarrow                   |
-| ↔ ⇔ ⟺  | \leftrightarrow \Leftrightarrow \iff   |
-| ⊤ ⊥    | \top \bot                              |
-| ∅ ∅    | \emptyset \varnothing                  |
-|        |                                        |
+| Symbol                                            | Script                                 |
+| ------------------------------------------------- | -------------------------------------- |
+| ∃ ∄                                               | \exists \nexists                       |
+| ∀                                                 | \forall                                |
+| ¬                                                 | \neg                                   |
+| ⊂ ⊃                                               | \subset \supset                        |
+| ∈ ∉ ∋                                             | \in \notin \ni                         |
+| ∧ ∨                                               | \land \lor                             |
+| → ←                                               | \rightarrow or \to \leftarrow or \gets |
+| ↦                                                 | \mapsto                                |
+| ⟹ ⇒                                               | \implies \Rightarrow                   |
+| ↔ ⇔ ⟺                                             | \leftrightarrow \Leftrightarrow \iff   |
+| ⊤ ⊥                                               | \top \bot                              |
+| ∅ ∅                                               | \emptyset \varnothing                  |
+| $\ge$                                             | \ge                                    |
+| $\le$                                             | \le                                    |
+| $\therefore$   $\because$                         | \therefore, \because                   |
+| $\fallingdotseq$                                  | \fallingdotseq                         |
+| $\precapprox$                                     | \precapprox                            |
+| $\between$                                        | \between                               |
+|                                                   |                                        |
+| $\gtrdot$,$\geqslant$,$\geqq$,$\leqq$,$\leqslant$ |                                        |
 
 
 
@@ -239,7 +246,7 @@ $$
 $$
 \colorbox{red}{$\color{yellow}{text}$}
 
-\fcolorbox{NavyBlue}{Magenta}{$\color{Melon}text$}
+\fcolorbox{NavyBlue}{white}{$\color{Melon}text$}
 
 \colorbox{Yellow}{$\color{blue}text$}
 
@@ -411,3 +418,16 @@ $$
 2x^2 + 3(x-1)(x-2) & = 2x^2 + 3(x^2-3x+2)\\ \nonumber &= 2x^2 + 3x^2 - 9x + 6\\ &= 5x^2 - 9x + 6
 \end{align}
 $$
+
+$$
+\begin{mdframed}
+\lipsum[1]
+\begin{equation}
+ f(x) = \sin(x)
+\end{equation}
+\lipsum[2]
+\end{mdframed}
+$$
+
+
+

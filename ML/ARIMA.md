@@ -1,6 +1,6 @@
 # ARIMA model
 
-![](https://img.shields.io/badge/Required_Chrome_extensions_to_see_correctly-white)[![](https://img.shields.io/static/v1?label=Download&message=mermaid&color=blueviolet)](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en)[![](https://img.shields.io/static/v1?label=Download&message=MathJax_Plugin&color=blue)](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn/related?hl=en)
+![](https://img.shields.io/badge/Required_Chrome_extensions_to_see_correctly-white)[![](https://img.shields.io/static/v1?label=Download&message=mermaid&color=blueviolet)](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe/related?hl=en)[![](https://img.shields.io/static/v1?label=Download&message=MathJax_Plugin&color=blue)](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related?hl=en)
 
 ##### 참고자료 : 김성범교수 Youtube
 
@@ -126,60 +126,99 @@ $$
 $$
 \begin{align*}X, Y &:\text{independent}\newline\newline
 E(X \cdot Y)&=E(X) \cdot E(Y) \newline\nonumber\newline
-\operatorname{Cov}(X, Y)&=0 \newline\nonumber\newline
-\operatorname{Cov}(X+2,Y)&=\operatorname{Cov}(X, Y)+\operatorname{Cov}(2,Y)\newline
-&=\operatorname{Cov}(X, Y)+E(2 Y)-E(2) \cdot E(Y)\newline
-&=\operatorname{Cov}(X, Y)+2E(Y)-2E(Y)\newline
-&=\operatorname{Cov}(X, Y)\newline\nonumber
+Cov(X, Y)&=0 \newline\nonumber\newline
+Cov(X+2,Y)&=Cov(X, Y)+Cov(2,Y)\newline
+&=Cov(X, Y)+E(2 Y)-E(2) \cdot E(Y)\newline
+&=Cov(X, Y)+2E(Y)-2E(Y)\newline
+&=Cov(X, Y)\newline\nonumber
 \newline
-\operatorname{Cov}(X, Y)&=\operatorname{Cov}(Y, X)\newline\newline
-\operatorname{Cov}(aX, Y)&=a\operatorname{Cov}(X, Y)
+Cov(X, Y)&=Cov(Y, X)\newline\newline
+Cov(aX, Y)&=aCov(X, Y)
 \end{align*}
 $$
 
 
 
-- $\operatorname{Cov}\left(X_{t}, X_{t+h}\right) = \gamma_X(h)$
+- $Cov\left(X_{t}, X_{t+h}\right) = \gamma_X(h)$
 
-$\begin{aligned}\text { (a) }\quad \gamma_{X}(0) =\operatorname{Cov}\left(X_{t}, X_{t}\right)=V\left(X_{t}\right)=\sigma_{X t}^{2} \end{aligned}$
+$\begin{aligned}\text { (a) }\quad \gamma_{X}(0) =Cov\left(X_{t}, X_{t}\right)=V\left(X_{t}\right)=\sigma_{X t}^{2} \end{aligned}$
 
-$\begin{aligned}\text { (b) }\quad \gamma_{X}(-h) &=\operatorname{Cov}\left(X_{t}, X_{t-h}\right) \newline&=\operatorname{Cov}\left(X_{t-h}, X_{t}\right) \newline &=\operatorname{Cov}\left(X_{t-h}, X_{(t-h)+h)}\right.\newline &=\gamma_{X}(h) \newline ∴\gamma_{X}(h)&=\gamma_{X}(-h) \text { for all } h\newline
+$\begin{aligned}\text { (b) }\quad \gamma_{X}(-h) &=Cov\left(X_{t}, X_{t-h}\right) \newline&=Cov\left(X_{t-h}, X_{t}\right) \newline &=Cov\left(X_{t-h}, X_{(t-h)+h)}\right.\newline &=\gamma_{X}(h) \newline ∴\gamma_{X}(h)&=\gamma_{X}(-h) \text { for all } h\newline
 &\to \textbf{Symmetry} \end{aligned}$
 
 
 
-##### Autocorrelation
+#### Autocorrelation
 
 $\begin{aligned}
-\rho_{x}(h)=\frac{\operatorname{Cov}\left(X_{t}, X_{t+h}\right)}{\sqrt{V(X_t)\cdot V(X_{t+h})}}
+\rho_{x}(h)=\frac{Cov\left(X_{t}, X_{t+h}\right)}{\sqrt{V(X_t)\cdot V(X_{t+h})}}
 =\frac{\gamma_X(h)}{\sqrt{\gamma_X(0)\cdot \gamma_X(0)}}=\frac{\gamma_X(h)}{\gamma_X(h)}
 \end{aligned}$
 
-$\begin{aligned} \text{(a)} \quad \rho_{x}(0)=\frac{\gamma_{x}(0)}{\gamma_{x}(0)}=1 \rightarrow \operatorname{Corr}(X_t,X_t)
+$\begin{aligned} \mathtt{(a)} \quad \rho_{x}(0)=\frac{\gamma_{x}(0)}{\gamma_{x}(0)}=1 \rightarrow Corr(X_t,X_t)
 \end{aligned}$
 
-$\begin{aligned} \text{(b)}\quad\rho_{x}(-h)=\rho_{x}(h) \quad\text{for all $h$}
-\end{aligned}$
+$\begin{align*} \mathtt{(b)}\quad\rho_{x}(-h)=\rho_{x}(h) \quad\text{for all $h$} \end{align*}$
 
-$\begin{aligned} \text{(c)}\quad-1\le\rho_{x}(h)\le1
-\end{aligned}$
+$\begin{align*} \mathtt{(c)}\quad-1\le\rho_{x}(h)\le1 \end{align*}$
 
 
 
-##### White Noise($a_t$, $WN(a_t)$)
+#### White Noise($a_t$, $WN(a_t)$)
 
 - 백색잡음
 
-(a) $E(a_t)=0$, 	$\forall t$ ->  all t를 뜻함
+1.  $\quad E(a_t)=0$,$\quad \forall t$ ->  all t를 뜻함
 
-(b)  $V(a_t) = \sigma_a^2$, 	$\forall t$
+2. $\quad V(a_t) = \sigma_a^2$, $\quad \forall t$
 
-(c) $Corr(a_t, a_s) = 0$,	 $t\not=s$
+3.  $\quad \text{Corr}(a_t, a_s) = 0$,	 $t\not=s$
 
-(d) $\gamma_a(h)=Cov(a_t, a_{t+h})=\begin{cases}\sigma_a^2,& h=0\newline0,&h\not=0\end{cases}$ 
-												
+4. $\quad \gamma_a(h)=Cov(a_t, a_{t+h})=\begin{cases}\sigma_a^2,& h=0\newline0,&h\not=0\end{cases}$ 
+   												
 
-(e) $\rho_a(h) = \Large A$ 
+5. $\quad \rho_a(h) = \Large A$ 
+
+
+
+---
+
+### part4
+
+
+
+#### Moving Average(1) : MA(1)
+
+$X_t = a_t=\theta a_{t-1}, a_t \sim{} N(0,\sigma_a^2)$
+
+$E(X_t)=E(a_t)-\theta E(a)_{t-1}=0-0=0$
+
+$\begin{align*} Cov(X_t,X_{t-h}) &= Cov(a_t-\theta a_{t-1},~a_{t-h}-\theta a_{t-h-1})\newline
+&=Cov(a_t,a_{t-1}) -\theta Cov(a_t, a_{t-h-1})-\theta Cov(a_{t-1}-a_{t-h})+\theta^2Cov(a_{t-1}, a_{t-h-1})\newline &=\gamma_X(h) \end{align*}$
+
+$\gamma_X(h) :\textbf{Autocovariance function(MA(1))}$
+
+$\begin{align*} \gamma_X(h):\begin{cases}h=0 &:\quad  \gamma_{X}(0)=Cov(a_t,a_{t-1})+\theta^2Cov(a_{t-1}, a_{t-1})= (1+\theta^2)\sigma a^2=V(X_t) \newline
+h=1&:\quad \gamma_X(1)=-\theta Covs(a_{t-1},a_{t-1})=-\theta \sigma a^2 \newline
+otherwise &: \quad 0 \end{cases}\end{align*}$
+
+
+
+$\rho_X(h) :\textbf{Autocorrelation function(MA(1))}$
+
+$\begin{align*} \rho_X(h):\begin{cases}h=0 &:\quad  \frac{Cov(X_t,X_t)}{\sqrt{V(X_t)\cdot V(X_t)}}=\frac{V(X_t)}{V(X_t)}=1 \newline
+h=1&:\quad \frac{Cov(X_t,X_{t-1})}{\gamma_X(0)}=\frac{\gamma_X(1)}{\gamma_X(0)}=\frac{-\theta\sigma a^2}{(1+\theta^2)\sigma a^2}=\frac{-\theta}{1+\theta^2} \newline
+otherwise &: \quad 0 \end{cases}\end{align*}$
+
+
+
+
+
+
+
+
+
+
 
 
 
