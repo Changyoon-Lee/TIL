@@ -420,13 +420,13 @@ $$
 $$
 
 $$
-\begin{mdframed}
-\lipsum[1]
-\begin{equation}
- f(x) = \sin(x)
-\end{equation}
-\lipsum[2]
-\end{mdframed}
+\begin{array}\newline
+Cov(X_1, X_2)&=E[(X_1-\mu_1)(X_2-\mu_2)]\newline
+&=\large\sigma_{\small{X_1X_2}}\newline∴ Cov(X_1,X_2)&=V(X_1)={\large\sigma_{\small{X_1}}}^2\newline\newline
+Corr(X_1,X_2)&=\frac{Cov(X_1,X_2)}{\sqrt{V(X_1)\cdot V(X_2)}}
+=\frac{\large\sigma_{\small{X_1X_2}}}{\sqrt{{\large\sigma_{\small{X_1}}}^2\cdot{\large\sigma_{\small{X_2}}}^2}}
+=\frac{\large\sigma_{\small{X_1X_2}}}{\large\sigma_{\small{X_1}}\cdot\large\sigma_{\small{X_2}}}
+\end{array}
 $$
 
 
