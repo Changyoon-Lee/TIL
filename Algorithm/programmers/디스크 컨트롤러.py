@@ -2,36 +2,20 @@ import heapq
 from operator import itemgetter
 
 def solution(jobs):
-    hq=[]
-    time=[]
+    time=0
     t=0
-    delay=0
-    jobs.sort(key=itemgetter(0,1))
-
-    for i in jobs:
-        if i[0]<=t:
-            heapq.heappush(hq, i[1])
-        else:
-            while not hq:
-                t+=heapq.heappop(hq)
-                time.append(t)
-            
-
-
-        if :
-            if i[0]>t:
-                t=i[0]+i[1]
-                time.append(t)
-            else :
-                t+=i[1]
-                time.append(t)
-        delay+=i[0]
-    size = len(hq)
-    for i in range(size):
-        t+=heapq.heappop(hq)
-        time.append(t)
-
-    return (sum(time)-delay)//len(jobs)
+    jobs.sort(key=lambda x: x[1])
+    n  = len(jobs)
+    while jobs:
+        for i in range(len(jobs)):
+            if jobs[i][0] <= t:
+                t+=jobs[i][1]
+                time += t-jobs[i][0]
+                del jobs[i]
+                break
+            elif i == len(jobs)-1:
+                t +=1
+    return time//n
 
 def solution2(job):
     cur = 0   # 현재 시점
