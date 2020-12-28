@@ -1,3 +1,5 @@
+# 코딩테스트 연습 > 2020 KAKAO BLIND RECRUITMENT > 자물쇠와 열쇠
+
 def rotate_cw(l): # 시계방향 회전
     n = len(l)
     res=[[0]*n for _ in range(n)]
