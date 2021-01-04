@@ -145,7 +145,7 @@
 | $\bar{a}$             | \bar{a}             |
 | $\grave{a}$           | \grave{a}           |
 | $\acute{a}$           | \acute{a}           |
-| $\dot{a}              | \dot{a}             |
+| $\dot{a}$             | \dot{a}             |
 | $\ddot{a}$            | \ddot{a}            |
 | $\not{a}$             | \not{a}             |
 | $\mathring{a}$        | \mathring{a}        |
@@ -429,5 +429,19 @@ Corr(X_1,X_2)&=\frac{Cov(X_1,X_2)}{\sqrt{V(X_1)\cdot V(X_2)}}
 \end{array}
 $$
 
+
+$$
+\begin{align*}X, Y &:\text{independent}\newline\newline
+E(X \cdot Y)&=E(X) \cdot E(Y) \newline\nonumber\newline
+Cov(X, Y)&=0 \newline\nonumber\newline
+Cov(X+2,Y)&=Cov(X, Y)+Cov(2,Y)\newline
+&=Cov(X, Y)+E(2 Y)-E(2) \cdot E(Y)\newline
+&=Cov(X, Y)+2E(Y)-2E(Y)\newline
+&=Cov(X, Y)\newline\nonumber
+\newline
+Cov(X, Y)&=Cov(Y, X)\newline\newline
+Cov(aX, Y)&=aCov(X, Y)
+\end{align*}
+$$
 
 
