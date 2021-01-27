@@ -1,3 +1,5 @@
+# 2point search 방법으로 다시 풀어 볼것
+
 def solution(gems):
     lenth=len(gems)
     n = len(set(gems))
@@ -5,6 +7,7 @@ def solution(gems):
     ran = len(gems)
     res=[1,1]
     tempset=set()
+    
     while ran+1!=n and ri!=lenth-1:
         
         while ri<=li+ran:
