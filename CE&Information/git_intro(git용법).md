@@ -30,6 +30,8 @@
 3. 서명 설정
    1. `$ git config --global user.name 'name'`
    2. `$ git config --global user.email 'email@mail'`
+   
+   *참고* : `$ git config --global credential.helper store` 사용자이름과 비밀번호를 매번 입력하지 않아도 되게함 \\\ `git config --global credential.helper cache <timeout>` : 일정시간동안 
 
    # github계정에 등록되어 있는 email을 사용해야됨
    
